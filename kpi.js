@@ -1,6 +1,6 @@
 (function() {
 	let template = document.createElement("template");
-	template.innerHTML = '
+	template.innerHTML = `
 		<style>
 			:host {
 			border-radius: 25px;
@@ -9,7 +9,7 @@
 			border-style: solid;
 			display: block;
 			}
-		</style>';
+		</style>`;
 	class kpi extends HTMLElement {
 		constructor() {
 		super();
